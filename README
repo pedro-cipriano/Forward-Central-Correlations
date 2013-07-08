@@ -1,0 +1,39 @@
+ForwardCentralCorrelations Analysis
+FSQ-12-008
+Author: Pedro Cipriano
+October 2012
+
+
+For the first time you need:
+
+1 - cmsrel CMSSW_4_2_X
+- checkout /UserCode/KKousour/QCDAnalysis in your src directory of CMSSW and compile it
+- do cmsenv in your CMSSW directory
+
+2 - Do cd ForwardCentralCorrelations/
+
+3 - Checkout the RooUnfold-1.1.1 from http://hepunx.rl.ac.uk/~adye/software/unfold/RooUnfold.html
+- do make
+
+4 - do cd src/
+
+5 - Edit run_analysis.C
+
+6 - Run it with root:
+root -l -b -q run_analysis.C
+
+OR
+
+Run it from bash:
+
+source run
+
+7 - The output is saved in the output/ directory
+
+
+Afterwards you only need:
+1 - cd CMSSW_4_2_X
+2 - cmsenv
+3 - cd ... ForwardCentralCorrelations/src
+4 - Edit run_analysis.C
+5 - source run OR root -l -b -q run_analysis.C
