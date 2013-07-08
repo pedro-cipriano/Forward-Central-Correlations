@@ -1,0 +1,669 @@
+\documentclass[11pt]{article}
+ \usepackage{graphicx}    % needed for including graphics e.g. EPS, PS
+ %\usepackage{epstopdf}    % needed for including graphics e.g. EPS, PS
+ \topmargin -2.5cm        % read Lamport p.163
+ \oddsidemargin -0.04cm   % read Lamport p.163
+ \evensidemargin -0.04cm  % same as oddsidemargin but for left-hand pages
+ \textwidth 18cm
+ \textheight 25.94cm 
+ %\pagestyle{empty}       % Uncomment if don't want page numbers
+ \parskip 5.0pt           % sets spacing between paragraphs
+ %\renewcommand{\baselinestretch}{1.5} 	% Uncomment for 1.5 spacing between lines
+ \parindent 0pt		  % sets leading space for paragraphs
+
+ \begin{document}         
+ % Start your text
+ 
+ \author{Pedro Cipriano}
+ \date{\today}
+ \title{Forward-Central Jet Correlation Analysis - Final Results}
+
+\maketitle
+
+\newpage
+\section{Main Scenario}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_pythia6.png}
+\caption{$\Delta\phi$ main scenario}
+\label{fig:delta_phi}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_pythia6.png}
+\caption{$\Delta\phi$ main scenario - ratio plots}
+\label{fig:delta_phi_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_hadronization.png}
+\caption{$\Delta\phi$ main scenario}
+\label{fig:delta_phib}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_hadronization.png}
+\caption{$\Delta\phi$ main scenario - ratio plots}
+\label{fig:delta_phib_ratio}
+\end{figure}
+
+\clearpage
+\subsection{Differentially on $\Delta\eta$}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_pythia6.png}
+\caption{$\Delta\phi$ main scenario deta1}
+\label{fig:delta_phi_deta1}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_pythia6.png}
+\caption{$\Delta\phi$ main scenario deta1 - ratio plots}
+\label{fig:delta_phi_deta1_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_hadronization.png}
+\caption{$\Delta\phi$ main scenario deta1}
+\label{fig:delta_phi_deta1b}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_hadronization.png}
+\caption{$\Delta\phi$ main scenario deta1 - ratio plots}
+\label{fig:delta_phi_deta1b_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_pythia6.png}
+\caption{$\Delta\phi$ main scenario deta2}
+\label{fig:delta_phi_deta2}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_pythia6.png}
+\caption{$\Delta\phi$ main scenario deta2 - ratio plots}
+\label{fig:delta_phi_deta2_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_hadronization.png}
+\caption{$\Delta\phi$ main scenario deta2}
+\label{fig:delta_phi_deta2b}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_hadronization.png}
+\caption{$\Delta\phi$ main scenario deta2 - ratio plots}
+\label{fig:delta_phi_deta2b_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_pythia6.png}
+\caption{$\Delta\phi$ main scenario deta3}
+\label{fig:delta_phi_deta3}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_pythia6.png}
+\caption{$\Delta\phi$ main scenario deta3 - ratio plots}
+\label{fig:delta_phi_deta3_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_hadronization.png}
+\caption{$\Delta\phi$ main scenario deta3}
+\label{fig:delta_phi_deta3b}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_hadronization.png}
+\caption{$\Delta\phi$ main scenario deta3 - ratio plots}
+\label{fig:delta_phi_deta3b_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_pythia6.png}
+\caption{$\Delta\phi$ main scenario deta4}
+\label{fig:delta_phi_deta4}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_pythia6.png}
+\caption{$\Delta\phi$ main scenario deta4 - ratio plots}
+\label{fig:delta_phi_deta4_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_hadronization.png}
+\caption{$\Delta\phi$ main scenario deta4}
+\label{fig:delta_phi_deta4b}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_hadronization.png}
+\caption{$\Delta\phi$ main scenario deta4 - ratio plots}
+\label{fig:delta_phi_deta4b_ratio}
+\end{figure}
+
+\clearpage
+\section{Require Activity Scenario}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario}
+\label{fig:delta_phi_nogap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario - ratio plots}
+\label{fig:delta_phi_nogap_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario}
+\label{fig:delta_phi_nogapb}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario - ratio plots}
+\label{fig:delta_phi_nogapb_ratio}
+\end{figure}
+
+\clearpage
+\subsection{Differentially on $\Delta\eta$}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario deta1}
+\label{fig:delta_phi_deta1_nogap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario deta1 - ratio plots}
+\label{fig:delta_phi_deta1_nogap_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario deta1}
+\label{fig:delta_phi_deta1_nogapb}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario deta1 - ratio plots}
+\label{fig:delta_phi_deta1_nogapb_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario deta2}
+\label{fig:delta_phi_deta2_nogap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario deta2 - ratio plots}
+\label{fig:delta_phi_deta2_nogap_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario deta2}
+\label{fig:delta_phi_deta2_nogapb}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario deta2 - ratio plots}
+\label{fig:delta_phi_deta2_nogapb_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario deta3}
+\label{fig:delta_phi_deta3_nogap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario deta3 - ratio plots}
+\label{fig:delta_phi_deta3_nogap_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario deta3}
+\label{fig:delta_phi_deta3_nogapb}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario deta3 - ratio plots}
+\label{fig:delta_phi_deta3_nogapb_ratio}
+\end{figure}
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario deta4}
+\label{fig:delta_phi_deta4_nogap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_nogap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_nogap_pythia6.png}
+\caption{$\Delta\phi$ require activity scenario deta4 - ratio plots}
+\label{fig:delta_phi_deta4_nogap_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario deta4}
+\label{fig:delta_phi_deta4_nogapb}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_nogap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_nogap_hadronization.png}
+\caption{$\Delta\phi$ require activity scenario deta4 - ratio plots}
+\label{fig:delta_phi_deta4_nogapb_ratio}
+\end{figure}
+
+\clearpage
+\section{Inside-Jet}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_pt_inside_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_pt_inside_gap_pythia6.png}
+\caption{Leading $p_{T}$ inside the gap}
+\label{fig:leading_pt_inside_gap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_pt_inside_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_pt_inside_gap_pythia6.png}
+\caption{Leading $p_{T}$ inside the gap - ratio plots}
+\label{fig:leading_pt_inside_gap_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_pt_inside_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_pt_inside_gap_hadronization.png}
+\caption{Leading $p_{T}$ inside the gap}
+\label{fig:leading_pt_inside_gapb}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_pt_inside_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_pt_inside_gap_hadronization.png}
+\caption{Leading $p_{T}$ inside the gap - ratio plots}
+\label{fig:leading_pt_inside_gapb_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_eta_star_inside_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_eta_star_inside_gap_pythia6.png}
+\caption{Leading $\eta$* inside the gap}
+\label{fig:leading_eta_star_inside_gap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_eta_star_inside_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_eta_star_inside_gap_pythia6.png}
+\caption{Leading $\eta$* inside the gap - ratio plots}
+\label{fig:leading_eta_star_inside_gap_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_eta_star_inside_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_eta_star_inside_gap_hadronization.png}
+\caption{Leading $\eta$* inside the gap}
+\label{fig:leading_eta_star_inside_gapb}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_eta_star_inside_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_eta_star_inside_gap_hadronization.png}
+\caption{Leading $\eta$* inside the gap - ratio plots}
+\label{fig:leading_eta_star_inside_gapb_ratio}
+\end{figure}
+
+\clearpage
+\section{Veto Activity Scenario}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario}
+\label{fig:delta_phi_gap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario - ratio plots}
+\label{fig:delta_phi_gap_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario}
+\label{fig:delta_phi_gapb}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario - ratio plots}
+\label{fig:delta_phi_gapb_ratio}
+\end{figure}
+
+\clearpage
+\subsection{Differentially on $\Delta\eta$}
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario deta1}
+\label{fig:delta_phi_gap_deta1}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario deta1 - ratio plots}
+\label{fig:delta_phi_gap_deta1_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta1_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario deta1}
+\label{fig:delta_phi_gap_deta1b}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta1_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario deta1 - ratio plots}
+\label{fig:delta_phi_gap_deta1b_ratio}
+\end{figure}
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario deta2}
+\label{fig:delta_phi_gap_deta2}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario deta2 - ratio plots}
+\label{fig:delta_phi_gap_deta2_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta2_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario deta2}
+\label{fig:delta_phi_gap_deta2b}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta2_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario deta2 - ratio plots}
+\label{fig:delta_phi_gap_deta2b_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario deta3}
+\label{fig:delta_phi_gap_deta3}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario deta3 - ratio plots}
+\label{fig:delta_phi_gap_deta3_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta3_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario deta3}
+\label{fig:delta_phi_gap_deta3b}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta3_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario deta3 - ratio plots}
+\label{fig:delta_phi_gap_deta3b_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario deta4}
+\label{fig:delta_phi_gap_deta4}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_gap_pythia6.png}
+\caption{$\Delta\phi$ veto activity scenario deta4 - ratio plots}
+\label{fig:delta_phi_gap_deta4_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_phi_deta4_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario deta4}
+\label{fig:delta_phi_gap_deta4b}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_phi_deta4_gap_hadronization.png}
+\caption{$\Delta\phi$ veto activity scenario deta4 - ratio plots}
+\label{fig:delta_phi_gap_deta4b_ratio}
+\end{figure}
+
+\clearpage
+\section{Outside-Jet Tag Scenario}
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_pt_outside_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_pt_outside_gap_pythia6.png}
+\caption{Leading $p_{T}$ outside the gap}
+\label{fig:leading_pt_outside_gap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_pt_outside_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_pt_outside_gap_pythia6.png}
+\caption{Leading $p_{T}$ outside the gap - ratio plots}
+\label{fig:leading_pt_outside_gap_ratio}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_pt_outside_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_leading_pt_outside_gap_hadronization.png}
+\caption{Leading $p_{T}$ outside the gap}
+\label{fig:leading_pt_outside_gapb}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_pt_outside_gap_check.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_leading_pt_outside_gap_hadronization.png}
+\caption{Leading $p_{T}$ outside the gap - ratio plots}
+\label{fig:leading_pt_outside_gapb_ratio}
+\end{figure}
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_eta_outside_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/xsec_final_delta_eta_outside_gap_pythia6.png}
+\caption{Leading $\Delta\eta$ outside the gap}
+\label{fig:leading_delta_eta_outside_gap}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_eta_outside_gap_all.png}
+\includegraphics[width=0.49\textwidth]{../output/final_xsec/png/ratio_final_delta_eta_outside_gap_pythia6.png}
+\caption{Leading $\Delta\eta$ outside the gap - ratio plots}
+\label{fig:leading_delta_eta_outside_gap_ratio}
+\end{figure}
+
+\clearpage
+\section{Scenario Plots}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{../output/final_xsec/png/xsec_scenario_delta_phi_all.png}
+\caption{$\Delta\phi$ scenatios}
+\label{fig:leading_delta_phi_scenarios_all}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{../output/final_xsec/png/xsec_scenario_delta_phi_pythia6.png}
+\caption{$\Delta\phi$ scenatios}
+\label{fig:leading_delta_phi_scenarios_pythia6}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{../output/final_xsec/png/xsec_scenario_delta_phi_check.png}
+\caption{$\Delta\phi$ scenatios}
+\label{fig:leading_delta_phi_scenarios_check}
+\end{figure}
+
+ % Stop your text
+ \end{document}
