@@ -1,0 +1,7 @@
+cd ../output/
+pdflatex ../latex/trigger.tex
+pdflatex ../latex/control.tex
+pdflatex ../latex/psba.tex
+pdflatex ../latex/unfolding.tex
+pdflatex ../latex/final.tex
+cd ../src

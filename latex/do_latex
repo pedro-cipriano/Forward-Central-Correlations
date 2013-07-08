@@ -1,0 +1,14 @@
+pdflatex trigger.tex
+cp trigger.pdf ../output/
+
+pdflatex control.tex
+cp control.pdf ../output/
+
+pdflatex psba.tex
+cp psba.pdf ../output/
+
+pdflatex unfolding.tex
+cp unfolding.pdf ../output/
+
+pdflatex final.tex
+cp final.pdf ../output/
